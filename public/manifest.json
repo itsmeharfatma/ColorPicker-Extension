@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ColorPicker",
   "version": "0.1.0",
-  "description": "Easily Pick colors from the browser screen.",
+  "description": "Easily pick colors from your browser screen.",
   "action": {
     "default_icon": {              
       "16": "icon16.png",   

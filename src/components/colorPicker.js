@@ -1,8 +1,7 @@
 import { useState } from "react";
 
 const ColorPicker = () => {
-    const [color, setColor] = useState("#5524e7");
-    // const [image, setImage] = useState(null);
+    const [color, setColor] = useState("#d1d1d1");
 
     const openEyeDropper = async () => {
         let eyeDropper = new window.EyeDropper();
@@ -16,33 +15,19 @@ const ColorPicker = () => {
     };
 
     return (
-        <div className=''>
-            <div className=''>
-                <div className=''>
+        <div className='flex flex-col space-y-2'>
+            <div className='flex items-center justify-start w-28 mx-auto text-[#1f2937] space-x-1' onClick={openEyeDropper}>
+                <i class="fa-solid fa-eye-dropper" style={{ color: "#9ca3af" }}></i>
+                <p>Pick Me!</p>
+            </div>
 
-                    <button className='' onClick={openEyeDropper}>
-                        Click Me!
-                    </button>
-                </div>
+            <div className='w-28 h-16 rounded-md mx-auto' style={{ background: color }} onClick={handleCopyColor} >
+                {/* <span>{color}</span> */}
+            </div>
 
-                <div className=''>
-                    <p>View selected</p>
-                    <button
-                        className=''
-                        style={{ background: color }}
-                        onClick={handleCopyColor}
-                    >
-                        <span>{color}</span>
-                    </button>
-                </div>
-
-                <span className=''>
-                    Made with ❤️ by{" "}
-                    <a href="https://github.com/itsmeharfatma" target="_blank">
-                        {/* @tomisloading */}
-                        Mehar Fatma
-                    </a>
-                </span>
+            <div className="flex items-center justify-start w-28 mx-auto text-[#1f2937] space-x-1">
+                <i class="fa-solid fa-copy" style={{ color: "#9ca3af" }}></i>
+                <div>{color}</div>
             </div>
         </div>
     );

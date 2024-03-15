@@ -1,0 +1,16 @@
+
+const Footer = () => {
+    return (
+        <div className="text-[#1f2937]">
+            {/* <hr className="h-px bg-gray-300 border-0" /> */}
+            <div className="justify-center">
+                Made with ❤️ by{" "}
+                <a rel="noreferrer" href="https://github.com/itsmeharfatma" target="_blank" className="from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent hover:underline">
+                    Mehar Fatma
+                </a>
+            </div>
+        </div>
+    )
+}
+
+export default Footer;

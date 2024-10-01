@@ -5,7 +5,7 @@
 
 ## Overview
 
-ColorPicker is a simple and intuitive browser extension that allows you to easily select and copy colors directly from your browser screen. Whether you're a web designer, developer, or just someone who loves colors, this tool provides a seamless way to grab color values without needing external tools.
+ColorPicker is a simple and intuitive browser extension that allows you to easily select and copy colors directly from your browser screen. Whether you're a web designer, developer, or just someone who loves colors, this tool provides a seamless way to grab color without needing external tools.
 
 ## Features
 
@@ -15,11 +15,11 @@ ColorPicker is a simple and intuitive browser extension that allows you to easil
 
 ## Screenshots
 
-1. ![ColorPicker](src/screenshots/extension.PNG)
+![ColorPicker](src/screenshots/extension.PNG)
 
-2. ![Picking Color](src/screenshots/picking-color.PNG)
+![Picking Color](src/screenshots/picking-color.PNG)
 
-3. ![Color Picked](src/screenshots/color-picked.PNG)
+![Color Picked](src/screenshots/color-picked.PNG)
 
 ## Prerequisites
 

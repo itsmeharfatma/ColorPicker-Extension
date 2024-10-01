@@ -11,13 +11,15 @@ ColorPicker is a simple and intuitive browser extension that allows you to easil
 
 - Easy-to-use interface with a clean design
 - Pick colors from any part of your browser screen
-- Lightweight and responsive
+- Lightweight
 
 ## Screenshots
 
-![ColorPicker](src/screenshots/extension.PNG)
-![Picking Color](src/screenshots/picking-color.PNG)
-![Color Picked](src/screenshots/color-picked.PNG)
+1. ![ColorPicker](src/screenshots/extension.PNG)
+
+2. ![Picking Color](src/screenshots/picking-color.PNG)
+
+3. ![Color Picked](src/screenshots/color-picked.PNG)
 
 ## Prerequisites
 

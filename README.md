@@ -28,7 +28,7 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-## Installation
+## Installation Setup
 
 1. **Clone the repository:**
 
@@ -38,13 +38,29 @@ Make sure you have the following installed on your machine:
    cd ColorPicker-Extension
    ```
 
-2. Navigate to chrome://extensions/ in your browser.
+2. **Install dependencies:**
 
-3. Enable Developer mode (toggle it on in the top right corner).
+   ```bash
+   npm install
+   ```
 
-4. Click on Load unpacked and select the folder containing the project files.
+3. **Building the Extension:**
 
-5. The ColorPicker extension will now be installed and available for use.
+   ```bash
+   npm run build
+   ```
+
+4. The build will be generated in the build/ directory.
+
+5. Navigate to chrome://extensions/ in your browser.
+
+6. Enable Developer mode (toggle it on in the top right corner).
+
+7. Click on Load unpacked and select the folder containing the project.
+
+8. Load the build/ directory into your browser’s extension manager as an unpacked extension.
+
+9. The ColorPicker extension will now be installed and available for use.
 
 ## How to Use
 
@@ -55,29 +71,3 @@ Make sure you have the following installed on your machine:
 3. Hover over any area of the screen to pick a color.
 
 4. The selected color will be displayed for easy copying.
-
-## Development
-
-This project is built using React for the popup interface.
-
-## Setup
-
-1. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-2. **Start the development server:**
-
-   ```bash
-   npm start
-   ```
-
-3. **Building the Extension:**
-
-   ```bash
-   npm run build
-   ```
-
-4. The build will be generated in the build/ directory, which can be loaded into your browser’s extension manager as an unpacked extension.

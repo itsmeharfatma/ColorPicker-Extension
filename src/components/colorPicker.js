@@ -26,7 +26,7 @@ const ColorPicker = () => {
   };
 
   return (
-    <div className="flex flex-col space-y-4 border border-gray-200 rounded-lg shadow-sm justify-center px-4 py-6 mt-11 mb-12 mx-4">
+    <div className="flex flex-col space-y-4 border border-gray-200 rounded-lg shadow-sm justify-center p-4 my-3 mx-4">
       <div
         className="w-[220px] h-28 rounded-md mx-auto"
         style={{ background: color }}

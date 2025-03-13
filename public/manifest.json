@@ -3,13 +3,23 @@
   "name": "ColorPicker",
   "version": "0.1.0",
   "description": "Easily pick colors from your browser screen.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_icon": {              
-      "16": "icon16.png",   
+    "default_icon": {
+      "16": "icon16.png",
+      "24": "icon24.png",
       "32": "icon32.png",
-      "48": "icon48.png",
-      "66": "icon66.png",
-      "96": "icon96.png"
+      "64": "icon64.png",
+      "128": "icon128.png",
+      "256": "icon256.png",
+      "512": "icon512.png"
     },
     "default_title": "ColorPicker",
     "default_popup": "index.html"

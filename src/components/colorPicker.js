@@ -56,6 +56,7 @@ const ColorPicker = () => {
       <div
         className="flex items-center justify-center w-full text-sm text-[#1f2937] shadow space-x-2 bg-slate-100 cursor-pointer rounded-md py-1 px-2 hover:shadow-md"
         onClick={handleCopyColor}
+        title="Copy"
       >
         <i className="fa-solid fa-copy" style={{ color: "#515357" }}></i>
         <div>{useRGB ? rgbColor : color}</div>
